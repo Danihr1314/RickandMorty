@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios';
 import ResidentInfo from './components/ResidentInfo'
-import hero from './assets/hero.jpg'
+import hero from './assets/hero.png'
 
 function App() {
   
@@ -24,7 +24,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className='hero'>
       <img src={hero} alt="" />
+      </div>
       <div className='info'>
         <div>
           <p><b>Name: </b>{location.name}</p>
