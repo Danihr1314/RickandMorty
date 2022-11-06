@@ -1,0 +1,76 @@
+*{
+  color: white;
+  justify-content: center;
+}
+
+body{
+  background-color: #05292E;
+  margin: 0;
+}
+
+.App img{
+  width: 100%;
+  height: auto;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.info div{
+  width: 890px;
+  height: 126px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #062226;
+  align-items: center;
+}
+
+.search-input{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.search-input button{
+  color: rgb(167, 166, 166);
+  width: 80px;
+}
+
+.character{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 275px;
+  margin-top: 57px;
+}
+
+.card{
+  background-color: #062226;
+  width: 437px;
+  height: 696px;
+}
+
+
+.card h2{
+  margin-left: 10px;
+}
+
+.card p{
+  margin-left: 10px;
+}
+
+.card img{
+  width: 437px;
+  height: auto;
+}
+
+.card button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+}
